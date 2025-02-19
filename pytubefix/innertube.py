@@ -526,8 +526,8 @@ def _default_po_token_verifier() -> Tuple[str, str]:
     Requests the visitorData and po_token with an input and returns a tuple[visitorData: str, po_token: str]
     """
     print('You can use the tool: https://github.com/YunzheZJU/youtube-po-token-generator, to get the token')
-    visitor_data = str(input("Enter with your visitorData: "))
-    po_token = str(input("Enter with your po_token: "))
+    visitor_data = "Cgt6a2tYR2hmbjFrcyjIh9a9BjIKCgJVUxIEGgAgRA%3D%3D"
+    po_token = "MlYzyetFE9YgozP2kM6aLKOIE-QEP1cMLVuegxvwcN8a__gjIh9qglPY_CeR_4FhLBYuc4fv693xWMorwraoVvf09FTL6Nitq_zddYItzmhqXjYklZHlPw=="
     return visitor_data, po_token
 
 
